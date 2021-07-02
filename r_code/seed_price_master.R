@@ -19,7 +19,7 @@
 
 # !!! important remarks !!!:
 # before running the R code you need to specify manually your main working directory, 
-# i.e. 'cd_main' (you find it in section 0) , and create in the main directory the 
+# i.e. 'wd_code' (you find it in section 0) , and create in the main directory the 
 # folder 'r_code', in which you save all provided r scripts
 
 
@@ -58,18 +58,18 @@ require(mgcv)
 ################################################################################
 
 # define main working directory 
-cd_main <- "H:/Seed prices/R/Git/seed_price"        #### !!! needs to be specified manually !!!
+wd_code <- "H:/Seed prices/R/Git/seed_price"        #### !!! needs to be specified manually !!!
 setwd(cd_main) # set directory
 
 
 # create additional folders and working directories 
 ## r code
-cd_code <- paste0(cd_main,"/r_code")
+wd_code <- paste0(wd_code,"/r_code")
 
 ## results
-setwd(cd_main) # set directory
+setwd(wd_code) # set directory
 dir.create("results")
-cd_results <- paste0(cd_main,"/results")
+wd_output <- paste0(wd_code,"/results")
 
 
 ################################################################################
@@ -77,10 +77,10 @@ cd_results <- paste0(cd_main,"/results")
 ################################################################################
 
 # download data directly from eth reseach collection
-data <- read.csv("https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/485215/seed_price_data.csv?sequence=1&isAllowed=n")
+data_1 <- read.csv("https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/485215/seed_price_data.csv?sequence=1&isAllowed=n")
 
 # run r scripts
 setwd(cd_results) # set directory
-source("___.R")                 # xxx
+source("seed_price_des_analysis.R")   # runs the descriptive analysis, including the Upset approach
 
-
+seed_price_lin_model

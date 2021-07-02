@@ -14,7 +14,7 @@ The code is structured into <br>
 
 In order to run the analysis you need to <br>
 1) create a project folder and within this main folder you need to create a sub-folder called *'r_code'*, in which you save all provided r scripts.  <br>
-2) specify your main working directory (i.e., *'cd_main'*) in the R script *'seed_price_master.R'*.<br>
+2) specify your main working directory (i.e., *'wd_code'*) in the R script *'seed_price_master.R'*.<br>
 3) Now you can run the R script *'seed_price_master.R'*, which downloads the data automatically and reproduces our analysis.
 <br>
 <br>
