@@ -1,7 +1,7 @@
 ## R-Code: The costs of diversity: higher prices for more diverse grassland seed mixtures
 <br>
 
-We provide here the R-code for reproducing Schaub et al (20xxa). 
+We provide here the R-code for reproducing Schaub et al (2021a). 
 <br>
 <br>
  
@@ -26,7 +26,7 @@ The data of the paper can be found under Schaub et al. (2021b) (https://doi.org/
 **References:**
 <br>
 
-Schaub, S., et al. 20xxa. The costs of diversity: higher prices for more diverse grassland seed mixtures
+Schaub, S., Finger, R., Buchmann, N., Steiner, V., & Klaus, V. H. (2021a). The costs of diversity: higher prices for more diverse grassland seed mixtures. Environmental Research Letters, 16(9), 094011. https://doi.org/10.1088/1748-9326/ac1a9c
 <br>
 <br>
-Schaub, S., et al. 20xxb. Data: German and Swiss seed mixture prices and characteristics. *ETH Research Collection*. https://doi.org/10.3929/ethz-b-000485215
+Schaub, S., Finger, R., Buchmann, N., Steiner, V., & Klaus, V. H. (2021b). Data: German and Swiss seed mixture prices and characteristics. *ETH Research Collection*. https://doi.org/10.3929/ethz-b-000485215
